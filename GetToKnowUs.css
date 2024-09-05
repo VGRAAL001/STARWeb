@@ -1,0 +1,118 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #102540;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    
+    color: #A0C8D6;
+}
+
+header nav ul li:active{
+    
+    background-color: #67AAC3;
+}
+
+.team-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.team-section h2 {
+    color: #A0CF3C;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.member {
+    width: 22%;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.member h3 {
+    color: #002147;
+    margin-top: 15px;
+}
+
+.sponsor-section {
+    background-color: #eef2f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sponsor-section h2 {
+    color: #002147;
+}
+
+.sponsor-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sponsor-info img {
+    height: 60px;
+}
+
+footer {
+    background-color: #102540;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    height: 60px;
+    margin-top: 10px;
+}
